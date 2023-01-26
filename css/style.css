@@ -17,6 +17,7 @@ html{
     text-align: right;
     margin: 10px;
     height: 10%;
+    
 }
 
 .button{
@@ -35,11 +36,12 @@ body{
 .contenitore{
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
+    height: 100vh;
     padding-top: 50px;
     justify-content: center;
     align-items: center;
     margin: 30px auto;
+    overflow-y: scroll;
     
 }
 
@@ -130,4 +132,8 @@ li a{
     justify-content: flex-end;
     align-items: center;
     color: red;
+}
+
+.contenitore::-webkit-scrollbar{
+    display: none;
 }
