@@ -16,6 +16,7 @@ html{
 .view{
     text-align: right;
     margin: 10px;
+    height: 10%;
 }
 
 .button{
@@ -30,3 +31,33 @@ html{
 body{
     background-color: black;
 }
+
+.contenitore{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-top: 120px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.colonna{
+    width: calc(100% / 7);
+    min-width: 254px;
+    padding: 30px;
+    position: relative;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.infouser{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
